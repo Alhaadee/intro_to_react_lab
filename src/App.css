@@ -2,15 +2,24 @@ img {
     width: 300px;
 }
 
+.display-recipes{
+    text-align: center;
+}
+
 .cakes__container{
     display: flex;
     gap: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .cake-card{
     background-color: peachpuff;
-    padding: 10px 30px;
+    width: 20%;
+    min-width: 150px;
     border-radius: 10px;
+    text-align: left;
+    margin-top: 10px;
     
 }
 
@@ -24,3 +33,26 @@ body{
     background-color: oldlace;
 }
 
+h1 {
+    grid-area: b;
+}
+.search-bar {
+    grid-area: c;
+}
+
+.search-bar input {
+    width: 45%;
+}
+nav {
+    grid-area: a;
+    margin-top: 12px;
+}
+
+
+header {
+    display: grid;
+    grid-template-areas:
+     "a b b"
+     "a b b"
+     "a c c";
+}

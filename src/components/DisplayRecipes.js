@@ -40,11 +40,11 @@ const DisplayRecipes = ()=>{
         </div>
     ))
 
-    // have to use normal brackets with map function when using react.
+    // IMPORTANT: have to use normal brackets with map function when using react.
 
 
     return (
-        <div>
+        <div className="display-recipes">
             <h2>Welcome to the Bakery!</h2>
             <img src ="https://images.unsplash.com/photo-1588195538326-c5b1e9f80a1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1650&q=80" alt="Image of cake"/>
             <div className="cakes__container">{cakesList}</div>

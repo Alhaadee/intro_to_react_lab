@@ -8,9 +8,11 @@ import DisplayRecipes from './components/DisplayRecipes';
 function App() {
   return (
     <div>
+      <header>
       <Title/>
       <Nav/>
       <Search/>
+      </header>
       <DisplayRecipes/>
     </div>
   );
