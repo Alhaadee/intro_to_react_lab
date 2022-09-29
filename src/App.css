@@ -13,6 +13,10 @@ img {
     flex-wrap: wrap;
 }
 
+form p {
+    text-align: left;
+}
+
 .cake-card{
     background-color: peachpuff;
     width: 20%;
@@ -43,10 +47,14 @@ h1 {
 .search-bar input {
     width: 45%;
 }
-nav {
+nav ul {
     grid-area: a;
-    margin-top: 12px;
+    /* margin-top: 12px; */
+    align-items: center;
+
 }
+
+
 
 
 header {

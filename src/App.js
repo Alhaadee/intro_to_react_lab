@@ -4,6 +4,7 @@ import Title from './components/Title.js'
 import Nav from './components/Nav';
 import Search from './components/Search';
 import DisplayRecipes from './components/DisplayRecipes';
+import Form from './components/Form';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Search/>
       </header>
       <DisplayRecipes/>
+      <Form/>
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import React from "react";
 
+// components should always start with a capital letter
 const DisplayRecipes = ()=>{
     const cakes = [
         {
