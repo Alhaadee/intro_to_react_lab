@@ -40,12 +40,17 @@ body{
 h1 {
     grid-area: b;
 }
-.search-bar {
+
+.search input {
+    text-align: center;
+}
+.search {
     grid-area: c;
 }
 
 .search-bar input {
-    width: 45%;
+    width: 50%;
+    text-align: center;
 }
 nav ul {
     grid-area: a;
